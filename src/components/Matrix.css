@@ -1,0 +1,29 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap : 0.5rem;
+    max-width: 500px;
+    width: 100%;
+    
+}
+
+.box {
+    aspect-ratio: 1;
+    background: white;
+    border: 2px solid hwb(329 64% 9%);
+    border-radius: 1rem;
+    cursor: pointer;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #da1e98;
+    box-shadow: 0 4px 6px -1px rgba(32, 1, 1, 0.1);
+    transition: all 0.3s ease;
+}
+
+.box:hover {
+    box-shadow: 0 10px 15px -3px #b10404bc;
+}
+.box:active{
+    color:#63118f
+}
